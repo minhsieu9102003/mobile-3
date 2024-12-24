@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/etStudentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Student Name" />
+
+    <EditText
+        android:id="@+id/etStudentMssv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Student ID"
+        android:layout_below="@id/etStudentName" />
+
+    <EditText
+        android:id="@+id/etStudentDob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Date of Birth"
+        android:layout_below="@id/etStudentMssv" />
+
+    <EditText
+        android:id="@+id/etStudentEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_below="@id/etStudentDob" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:layout_below="@id/etStudentEmail"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
